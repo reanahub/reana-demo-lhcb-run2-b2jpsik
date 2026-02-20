@@ -1,0 +1,11 @@
+inputs:
+  files:
+    - analyse.py
+    - Snakefile
+workflow:
+  type: snakemake
+  file: Snakefile
+outputs:
+  files:
+    - bmass.png
+    - jpsimass.png
