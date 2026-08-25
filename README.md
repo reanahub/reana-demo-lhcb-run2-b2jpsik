@@ -139,7 +139,7 @@ source ~/.virtualenvs/reana/bin/activate
 pip install reana-client
 # connect to some REANA cloud instance
 export REANA_SERVER_URL=https://reana.cern.ch/
-export REANA_ACCESS_TOKEN=XXXXXXX
+export REANA_ACCESS_TOKEN=XXXXXXX # or use `reana-client login` for REANA 0.95
 # create new workflow
 reana-client create -n myanalysis
 export REANA_WORKON=myanalysis
